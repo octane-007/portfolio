@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Octane - Video Editor Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: #0e0e0e;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.2;
+    }
+
+    .hero {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      background: linear-gradient(145deg, rgba(0,0,0,0.8), rgba(28,28,28,0.8));
+    }
+
+    .glow {
+      font-size: 3.5rem;
+      color: #0ff;
+      text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    }
+
+    .subline {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #0ff;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      font-size: 1rem;
+      color: #ddd;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .about {
+        padding-bottom: 200px;
+    }
+
+    footer {
+      text-align: center;
+      padding-bottom: 50px;
+      font-size: 0.9rem;
+      background-color: #111;
+      border-top: 1px solid #222;
+    }
+
+    footer a {
+      color: #0ff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .showreel video {
+      width: 90%;
+      max-width: 800px;
+      border: 2px solid #0ff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #0ff44d;
+    }
+    .about p {
+  font-size: 1rem;
+  color: #ddd;
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.about h3 {
+  font-size: 1.3rem;
+  color: #0ff;
+  margin-top: 30px;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.custom-list li {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-left: 4px solid #0ff;
+  text-align: left;
+  border-radius: 4px;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="video-bg-container">
+    <video class="video-bg" autoplay muted loop>
+      <source src="assets/montage1.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+  <header class="hero">
+    <h1 class="glow">Octane</h1>
+    <p class="subline">Freelance Video Editor & Gaming Creator</p>
+  </header>
+
+  
+
+  <<section class="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>Hi, I'm Arjya aka Octane. I make slick edits, montages, motion graphics, and cinematic gaming content. Currently available for freelance work.</p>
+  <h3>Skills & Expertise</h3>
+  <ul class="custom-list">
+    <li>Color grading and color correction</li>
+    <li>Video editing</li>
+    <li>Motion graphics and visual effects</li>
+    <li>Sound design and audio mixing</li>
+  </ul>
+
+  <h3>Software Proficiency</h3>
+  <ul class="custom-list">
+    <li>DaVinci Resolve</li>
+    <li>Fusion</li>
+    <li>Canva</li>
+  </ul>
+</section>
+
+  <footer>
+    <p>Connect with me: <a href="https://www.instagram.com/arjya_007/">Instagram</a> | <a href="https://www.youtube.com/@octane_007">YouTube</a> | <a href="malito:octane007@proton.me">Mail</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
